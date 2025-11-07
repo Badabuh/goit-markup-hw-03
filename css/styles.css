@@ -11,6 +11,8 @@ h2,h3,h4,h5,h6 {
 
 ul {
     list-style-type: none;
+    padding-left: 0; 
+    margin:0;
 }
 
 a{
@@ -180,6 +182,7 @@ img{
     gap: 24px;
 }
 .privileges-item {
+    display: block;
     border: 1px solid #000;
     width: calc((100% - 72px) / 4);
 }
@@ -226,6 +229,7 @@ img{
     gap: 24px;
 }
 .ourteam-list-element {
+    display: block;
     text-align: center;
     border: 1px solid #000;
     border-radius: 0 0 4px 4px;
@@ -281,6 +285,7 @@ img{
     gap: 48px 24px;
 }
 .ourportfolio-item {
+    display: block;
     width: calc((100% - 48px) / 3);
 }
 .ourportfolio-item-title {
